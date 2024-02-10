@@ -1,0 +1,19 @@
+.VendingMachine {
+  text-align: center;
+  background-image: url('https://img6.arthub.ai/64b825af-dd8.webp');
+  background-size: 'cover';
+  background-position: center;
+  height: 100vh;
+  /* width: 100vw; */
+  position: relative;
+  z-index: 0;
+}
+
+.VendingMachine-heading {
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  color: rgb(214, 133, 10);
+  margin-top: 0px;
+  top: 20%;
+  font-size: 60px;
+  
+}

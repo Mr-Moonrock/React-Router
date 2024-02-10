@@ -1,0 +1,43 @@
+.Navbar {
+  padding: 15px;
+  position: absolute;
+  margin-top: 1565px;
+  margin-left: -208px;
+  transform: translate(-50%, -50%) rotate(-90deg);;
+  background-color: rgba(205, 7, 149, 0.5);
+  z-index: 1;
+  opacity: 100%;
+  border-radius: 10px;
+  width: 160px;
+  height: 260px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  max-width: 800px;
+}
+
+.Navbar a {
+  /* font-size: 1.5rem; */
+  margin: 5px;
+  color: white;
+  writing-mode: vertical-rl;
+}
+
+.Navbar a:hover {
+  color: yellow;
+}
+
+.Navbar-btn {
+  background-color: rgb(11, 217, 253);
+  font-size: 24px;
+  padding: 8px;
+  margin: 3px;
+  border: none;
+  border-radius: 5px;
+}
+
+.Navbar-container {
+  position: relative;
+  top: 50%;
+  left: 50%;
+}
